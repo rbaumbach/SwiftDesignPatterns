@@ -13,8 +13,18 @@
 		946F98272016D4C300CAC197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946F98252016D4C300CAC197 /* Main.storyboard */; };
 		946F98292016D4C300CAC197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946F98282016D4C300CAC197 /* Assets.xcassets */; };
 		946F982C2016D4C300CAC197 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946F982A2016D4C300CAC197 /* LaunchScreen.storyboard */; };
+		94BE66E42020BB1F00D05667 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE66E32020BB1F00D05667 /* SuperHero.swift */; };
+		94BE66E62020BB4C00D05667 /* PowersOfSpider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE66E52020BB4C00D05667 /* PowersOfSpider.swift */; };
+		94BE66E82020BB6A00D05667 /* SuperSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE66E72020BB6A00D05667 /* SuperSoldier.swift */; };
+		94BE66EA2020BB7C00D05667 /* Lightning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE66E92020BB7C00D05667 /* Lightning.swift */; };
+		94BE66EC2020BB8D00D05667 /* PowersOfOnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE66EB2020BB8D00D05667 /* PowersOfOnion.swift */; };
+		94BE66F02020BBCC00D05667 /* SpiderMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE66EF2020BBCC00D05667 /* SpiderMan.swift */; };
+		94BE66F22020BBD400D05667 /* Thor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE66F12020BBD400D05667 /* Thor.swift */; };
+		94BE66F42020BBDF00D05667 /* MrWDW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE66F32020BBDF00D05667 /* MrWDW.swift */; };
+		94BE66F62020BBED00D05667 /* CaptainAmerica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE66F52020BBED00D05667 /* CaptainAmerica.swift */; };
+		94BE66F82020BDB600D05667 /* Silk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE66F72020BDB600D05667 /* Silk.swift */; };
 		94D46CC6201D2AB10039C5F0 /* AnySuperhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D46CC5201D2AB10039C5F0 /* AnySuperhero.swift */; };
-		94D46CCE201D2B020039C5F0 /* TestSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D46CCD201D2B020039C5F0 /* TestSpec.swift */; };
+		94E1AD2E201F6B3700652C5C /* AnySuperheroSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E1AD2D201F6B3700652C5C /* AnySuperheroSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +47,20 @@
 		946F98282016D4C300CAC197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		946F982B2016D4C300CAC197 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		946F982D2016D4C400CAC197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94BE66E32020BB1F00D05667 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		94BE66E52020BB4C00D05667 /* PowersOfSpider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowersOfSpider.swift; sourceTree = "<group>"; };
+		94BE66E72020BB6A00D05667 /* SuperSoldier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSoldier.swift; sourceTree = "<group>"; };
+		94BE66E92020BB7C00D05667 /* Lightning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lightning.swift; sourceTree = "<group>"; };
+		94BE66EB2020BB8D00D05667 /* PowersOfOnion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowersOfOnion.swift; sourceTree = "<group>"; };
+		94BE66EF2020BBCC00D05667 /* SpiderMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderMan.swift; sourceTree = "<group>"; };
+		94BE66F12020BBD400D05667 /* Thor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thor.swift; sourceTree = "<group>"; };
+		94BE66F32020BBDF00D05667 /* MrWDW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrWDW.swift; sourceTree = "<group>"; };
+		94BE66F52020BBED00D05667 /* CaptainAmerica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptainAmerica.swift; sourceTree = "<group>"; };
+		94BE66F72020BDB600D05667 /* Silk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Silk.swift; sourceTree = "<group>"; };
 		94D46CC5201D2AB10039C5F0 /* AnySuperhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnySuperhero.swift; sourceTree = "<group>"; };
 		94D46CCB201D2B020039C5F0 /* Specs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		94D46CCD201D2B020039C5F0 /* TestSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSpec.swift; sourceTree = "<group>"; };
 		94D46CCF201D2B020039C5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E1AD2D201F6B3700652C5C /* AnySuperheroSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnySuperheroSpec.swift; sourceTree = "<group>"; };
 		B77779E6C11D64AA6556CABA /* Pods-Specs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +130,29 @@
 			path = SwiftDesignPatterns;
 			sourceTree = "<group>";
 		};
+		94BE66ED2020BB9C00D05667 /* Concrete Types */ = {
+			isa = PBXGroup;
+			children = (
+				94BE66F52020BBED00D05667 /* CaptainAmerica.swift */,
+				94BE66F32020BBDF00D05667 /* MrWDW.swift */,
+				94BE66F72020BDB600D05667 /* Silk.swift */,
+				94BE66EF2020BBCC00D05667 /* SpiderMan.swift */,
+				94BE66F12020BBD400D05667 /* Thor.swift */,
+			);
+			path = "Concrete Types";
+			sourceTree = "<group>";
+		};
+		94BE66EE2020BBA900D05667 /* Associated Types */ = {
+			isa = PBXGroup;
+			children = (
+				94BE66E92020BB7C00D05667 /* Lightning.swift */,
+				94BE66EB2020BB8D00D05667 /* PowersOfOnion.swift */,
+				94BE66E52020BB4C00D05667 /* PowersOfSpider.swift */,
+				94BE66E72020BB6A00D05667 /* SuperSoldier.swift */,
+			);
+			path = "Associated Types";
+			sourceTree = "<group>";
+		};
 		94D46CC3201D29B00039C5F0 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +165,10 @@
 		94D46CC4201D2A090039C5F0 /* Type Erasure */ = {
 			isa = PBXGroup;
 			children = (
+				94BE66EE2020BBA900D05667 /* Associated Types */,
+				94BE66ED2020BB9C00D05667 /* Concrete Types */,
 				94D46CC5201D2AB10039C5F0 /* AnySuperhero.swift */,
+				94BE66E32020BB1F00D05667 /* SuperHero.swift */,
 			);
 			path = "Type Erasure";
 			sourceTree = "<group>";
@@ -130,7 +176,7 @@
 		94D46CCC201D2B020039C5F0 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
-				94D46CCD201D2B020039C5F0 /* TestSpec.swift */,
+				94E1AD2C201F6B1A00652C5C /* Type Erasure */,
 				94D46CD7201D2B620039C5F0 /* Resources */,
 			);
 			path = Specs;
@@ -153,6 +199,14 @@
 				94D46CCF201D2B020039C5F0 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		94E1AD2C201F6B1A00652C5C /* Type Erasure */ = {
+			isa = PBXGroup;
+			children = (
+				94E1AD2D201F6B3700652C5C /* AnySuperheroSpec.swift */,
+			);
+			path = "Type Erasure";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,9 +371,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BE66E62020BB4C00D05667 /* PowersOfSpider.swift in Sources */,
+				94BE66F02020BBCC00D05667 /* SpiderMan.swift in Sources */,
 				946F98242016D4C300CAC197 /* ViewController.swift in Sources */,
 				946F98222016D4C300CAC197 /* AppDelegate.swift in Sources */,
 				94D46CC6201D2AB10039C5F0 /* AnySuperhero.swift in Sources */,
+				94BE66F62020BBED00D05667 /* CaptainAmerica.swift in Sources */,
+				94BE66E82020BB6A00D05667 /* SuperSoldier.swift in Sources */,
+				94BE66E42020BB1F00D05667 /* SuperHero.swift in Sources */,
+				94BE66EC2020BB8D00D05667 /* PowersOfOnion.swift in Sources */,
+				94BE66F22020BBD400D05667 /* Thor.swift in Sources */,
+				94BE66EA2020BB7C00D05667 /* Lightning.swift in Sources */,
+				94BE66F42020BBDF00D05667 /* MrWDW.swift in Sources */,
+				94BE66F82020BDB600D05667 /* Silk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D46CCE201D2B020039C5F0 /* TestSpec.swift in Sources */,
+				94E1AD2E201F6B3700652C5C /* AnySuperheroSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +457,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -450,6 +515,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -473,6 +539,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftDesignPatterns/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -489,6 +556,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftDesignPatterns/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -506,6 +574,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Specs/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -524,6 +593,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Specs/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
