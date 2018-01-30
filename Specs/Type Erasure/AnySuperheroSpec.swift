@@ -33,4 +33,3 @@ class AnySuperheroSpec: QuickSpec {
         }
     }
 }
-
