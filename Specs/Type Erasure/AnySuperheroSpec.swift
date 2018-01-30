@@ -26,7 +26,7 @@ class AnySuperheroSpec: QuickSpec {
             expect(spiderMen[0].superPower).to(beAnInstanceOf(PowersOfSpider.self))
             expect(spiderMen[1].superPower).to(beAnInstanceOf(PowersOfSpider.self))
             
-            // If you use AnySuperHero in a collection, they still have to have the same associated type (homogenous)
+            // If you use AnySuperHero in a collection, they still have to have the same associated type (homogeneous)
             // or you get a compile error.  For example, as much as MrWDW would love to work with Thor, you can't do this:
             
             // let superTeam = [AnySuperHero(MrWDW()), AnySuperHero(Thor())]
