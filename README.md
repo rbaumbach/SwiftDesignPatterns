@@ -4,7 +4,8 @@ Design pattern samples in Swift.
 
 ## Current Design Pattern Samples*
 
-1.  Type Erasure Pattern
+1. Type Erasure Pattern
+2. Delegate Pattern (This example also uses Type Erasure for an advanced example with a generic struct)
 
 *More patterns to follow in the near future.
 

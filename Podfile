@@ -3,6 +3,6 @@ use_frameworks!
 inhibit_all_warnings!
 
 target 'Specs' do
-  pod 'Quick', '1.2.0'
-  pod 'Nimble', '7.0.3'
+  pod 'Quick', '1.3.0'
+  pod 'Nimble', '7.1.1'
 end

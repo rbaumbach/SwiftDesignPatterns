@@ -25,6 +25,11 @@
 		94BE66F82020BDB600D05667 /* Silk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BE66F72020BDB600D05667 /* Silk.swift */; };
 		94D46CC6201D2AB10039C5F0 /* AnySuperhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D46CC5201D2AB10039C5F0 /* AnySuperhero.swift */; };
 		94E1AD2E201F6B3700652C5C /* AnySuperheroSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E1AD2D201F6B3700652C5C /* AnySuperheroSpec.swift */; };
+		94F5D57420B0AA0200BF44D0 /* FancyDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F5D57320B0AA0200BF44D0 /* FancyDictionary.swift */; };
+		94F5D57720B0AAF700BF44D0 /* FancyDictionarySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F5D57620B0AAF700BF44D0 /* FancyDictionarySpec.swift */; };
+		94F5D57B20B1FD4F00BF44D0 /* Frog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F5D57A20B1FD4F00BF44D0 /* Frog.swift */; };
+		94F5D57F20B1FED200BF44D0 /* FrogSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F5D57E20B1FED200BF44D0 /* FrogSpec.swift */; };
+		94F5D58120B2017F00BF44D0 /* AnyFancyDictionaryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F5D58020B2017F00BF44D0 /* AnyFancyDictionaryDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +66,11 @@
 		94D46CCB201D2B020039C5F0 /* Specs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Specs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D46CCF201D2B020039C5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E1AD2D201F6B3700652C5C /* AnySuperheroSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnySuperheroSpec.swift; sourceTree = "<group>"; };
+		94F5D57320B0AA0200BF44D0 /* FancyDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyDictionary.swift; sourceTree = "<group>"; };
+		94F5D57620B0AAF700BF44D0 /* FancyDictionarySpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyDictionarySpec.swift; sourceTree = "<group>"; };
+		94F5D57A20B1FD4F00BF44D0 /* Frog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frog.swift; sourceTree = "<group>"; };
+		94F5D57E20B1FED200BF44D0 /* FrogSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogSpec.swift; sourceTree = "<group>"; };
+		94F5D58020B2017F00BF44D0 /* AnyFancyDictionaryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyFancyDictionaryDelegate.swift; sourceTree = "<group>"; };
 		B77779E6C11D64AA6556CABA /* Pods-Specs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Specs/Pods-Specs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,8 +134,8 @@
 			isa = PBXGroup;
 			children = (
 				94D46CC3201D29B00039C5F0 /* App */,
+				94F5D57020B0A99900BF44D0 /* Design Patterns */,
 				94D46CD5201D2B1B0039C5F0 /* Resources */,
-				94D46CC4201D2A090039C5F0 /* Type Erasure */,
 			);
 			path = SwiftDesignPatterns;
 			sourceTree = "<group>";
@@ -176,7 +186,8 @@
 		94D46CCC201D2B020039C5F0 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
-				94E1AD2C201F6B1A00652C5C /* Type Erasure */,
+				94F5D57520B0AAE800BF44D0 /* Delegate */,
+				94F5D57120B0A9AF00BF44D0 /* Design Patterns */,
 				94D46CD7201D2B620039C5F0 /* Resources */,
 			);
 			path = Specs;
@@ -209,6 +220,74 @@
 			path = "Type Erasure";
 			sourceTree = "<group>";
 		};
+		94F5D57020B0A99900BF44D0 /* Design Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				94F5D57220B0A9C700BF44D0 /* Delegate */,
+				94D46CC4201D2A090039C5F0 /* Type Erasure */,
+			);
+			path = "Design Patterns";
+			sourceTree = "<group>";
+		};
+		94F5D57120B0A9AF00BF44D0 /* Design Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				94E1AD2C201F6B1A00652C5C /* Type Erasure */,
+			);
+			path = "Design Patterns";
+			sourceTree = "<group>";
+		};
+		94F5D57220B0A9C700BF44D0 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				94F5D57C20B1FEAE00BF44D0 /* Advanced */,
+				94F5D57D20B1FEB400BF44D0 /* Simple */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		94F5D57520B0AAE800BF44D0 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				94F5D57920B1FCF600BF44D0 /* Advanced */,
+				94F5D57820B1FCF000BF44D0 /* Simple */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		94F5D57820B1FCF000BF44D0 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				94F5D57E20B1FED200BF44D0 /* FrogSpec.swift */,
+			);
+			path = Simple;
+			sourceTree = "<group>";
+		};
+		94F5D57920B1FCF600BF44D0 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				94F5D57620B0AAF700BF44D0 /* FancyDictionarySpec.swift */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
+		94F5D57C20B1FEAE00BF44D0 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				94F5D58020B2017F00BF44D0 /* AnyFancyDictionaryDelegate.swift */,
+				94F5D57320B0AA0200BF44D0 /* FancyDictionary.swift */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
+		94F5D57D20B1FEB400BF44D0 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				94F5D57A20B1FD4F00BF44D0 /* Frog.swift */,
+			);
+			path = Simple;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,7 +317,6 @@
 				94D46CC8201D2B020039C5F0 /* Frameworks */,
 				94D46CC9201D2B020039C5F0 /* Resources */,
 				9B249FD37B29DA1C1BBDD516 /* [CP] Embed Pods Frameworks */,
-				BD9111A882FF1DA17C5554D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,7 +335,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = rkb;
 				TargetAttributes = {
 					946F981D2016D4C300CAC197 = {
@@ -331,21 +409,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Specs/Pods-Specs-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BD9111A882FF1DA17C5554D1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Specs/Pods-Specs-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D280E9BD21CB4A4A85F9A6B0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,10 +443,12 @@
 				94BE66E82020BB6A00D05667 /* SuperSoldier.swift in Sources */,
 				94BE66E42020BB1F00D05667 /* SuperHero.swift in Sources */,
 				94BE66EC2020BB8D00D05667 /* PowersOfOnion.swift in Sources */,
+				94F5D58120B2017F00BF44D0 /* AnyFancyDictionaryDelegate.swift in Sources */,
 				94BE66F22020BBD400D05667 /* Thor.swift in Sources */,
 				94BE66EA2020BB7C00D05667 /* Lightning.swift in Sources */,
 				94BE66F42020BBDF00D05667 /* MrWDW.swift in Sources */,
 				94BE66F82020BDB600D05667 /* Silk.swift in Sources */,
+				94F5D57420B0AA0200BF44D0 /* FancyDictionary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +456,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F5D57720B0AAF700BF44D0 /* FancyDictionarySpec.swift in Sources */,
+				94F5D57B20B1FD4F00BF44D0 /* Frog.swift in Sources */,
+				94F5D57F20B1FED200BF44D0 /* FrogSpec.swift in Sources */,
 				94E1AD2E201F6B3700652C5C /* AnySuperheroSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +507,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -446,6 +515,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -497,6 +567,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -504,6 +575,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
